@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *Hello, puts
  */
 int main(void)
