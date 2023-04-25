@@ -18,8 +18,9 @@ void times_table(void)
 			if (resul <= 9)
 				_putchar(' ');
 			else
-				_putchar((resul / 10) + 48);
+			{	_putchar((resul / 10) + 48);
 				_putchar((resul % 10) + 48);
+			}
 		}
 		_putchar('\n');
 	}
