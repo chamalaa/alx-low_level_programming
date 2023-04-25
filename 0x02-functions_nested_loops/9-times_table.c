@@ -11,20 +11,16 @@ void times_table(void)
 	{
 		_putchar(48);
 		for (mult = 1; mult <= 9; mult++)
-		{
 			_putchar(',');
 			_putchar(' ');
 			resul = num * mult;
 			if (resul <= 9)
-			{
 				_putchar(' ');
-			}
 			else
 			{
 				_putchar((resul / 10) + 48);
 				_putchar((resul % 10) + 48);
 			}
-		}
 		_putchar('\n');
 	}
 }
