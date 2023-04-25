@@ -16,7 +16,6 @@ void times_table(void)
 			_putchar(' ');
 
 			resul = num * mult;
-		}
 			if (resul <= 9)
 			{
 				_putchar(' ');
@@ -25,6 +24,7 @@ void times_table(void)
 			{	_putchar((resul / 10) + 48);
 				_putchar((resul % 10) + 48);
 			}
+		}
 		_putchar('\n');
 	}
 }
