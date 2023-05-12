@@ -1,9 +1,10 @@
+#include "stdlib.h"
 #include "stdio.h"
 /**
  * main - a program that multiplies two numbers
  * @argc: number of arguments
  * @argv: array of arguments
- *
+ * _atoi - converts a string to an integer
  * Return: 0 (Success), 1 (Error)
  */
 int main(int argc, char *argv[])
