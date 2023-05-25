@@ -22,6 +22,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	while (x--)
 		printf("%d%s", va_arg(ap, int),
-				i ? (separator ? separator : "") : "\n");
+				x ? (separator ? separator : "") : "\n");
 	va_end(ap);
 }
