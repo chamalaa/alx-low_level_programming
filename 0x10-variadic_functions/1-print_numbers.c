@@ -1,4 +1,6 @@
 #include "variadic_functions.h"
+#include <stdio.h>
+#include <stdarg.h>
 
 /**
  * print_numbers -  a function that prints numbers, followed by a new line
@@ -17,7 +19,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		return;
 	}
 	va_start (i, n);
-	while (i--)
+	while(x--)
 		printf("%d%s", va_arg(i, int),
 				i ? (separator ? separator : "") : "\n");
 	va_end(i);
