@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * list_len -  function that returns the number of elements in a linked 
+ * list_len - function that returns the number of elements in a linked
  * @h: pointerof the first node
  * Return: number of elements in h
  */

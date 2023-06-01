@@ -14,7 +14,6 @@ int _strlen(char *s)
 		x++;
 	return (x);
 }
-
 /**
  * print_list -  function that prints all the elements of a list_t
  * @h: pointer of first data
